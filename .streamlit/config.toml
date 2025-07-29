@@ -1,0 +1,15 @@
+[browser]
+gatherUsageStats = false
+
+
+[client] 
+toolbarMode = "minimal"
+
+
+[logger]
+level = "info"
+
+
+[theme]
+base= "light"
+

@@ -1,0 +1,5 @@
+pandas == 2.2.3
+pycirclize == 1.9.1
+streamlit == 1.47.1
+streamlit-agraph == 0.0.45
+streamlit-analytics2 == 0.10.5

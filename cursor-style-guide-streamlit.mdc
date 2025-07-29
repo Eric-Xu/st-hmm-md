@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: This rule provides guidelines and best practices for developing performant Streamlit applications.
+globs: *.py
+---
+
+**Performance Considerations**:
+  - **Optimization Techniques**: Use caching (`@st.cache_data`, `@st.cache_resource`) to store the results of expensive computations or data loading operations. Optimize data loading by using appropriate data formats (e.g., Parquet, Feather) and filtering data at the source. Debounce user interactions to reduce the frequency of reruns.
+  - **Memory Management**:  Avoid loading large datasets into memory unnecessarily.  Use data streaming techniques or chunking to process large datasets in smaller portions.  Delete unused variables and data structures to release memory.
+  - **Rendering Optimization**:  Use Streamlit's built-in rendering optimizations, such as delta generation, to minimize the amount of data that needs to be sent to the browser.  Avoid creating complex layouts with deeply nested components, as this can impact rendering performance.
+  - **Bundle Size**: Minimize external dependencies to reduce the bundle size and improve loading times. Use a `.streamlitignore` file to exclude unnecessary files and directories from the Streamlit deployment bundle.  Consider using a CDN to serve static assets.
+  - **Lazy Loading**: Implement lazy loading for expensive components or sections of your Streamlit application.  Load components only when they are needed, using conditional rendering or callbacks. Utilize the `secrets` functionality to control the conditional loading of certain modules if access to a given secret is available. 

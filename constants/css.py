@@ -1,0 +1,22 @@
+BLACK_HEX = "#262730"
+BLUE_HEX = "#3a91dd"
+GRAY_HEX = "#cccccc"
+GRAY_LIGHT_HEX = "#f0f2f6"
+GREEN_HEX = "#5bd0b3"
+GREEN_LIGHT_HEX = "#74e9cc"
+PURPLE_HEX = "#803df5"
+RED_HEX = "#f63366"
+YELLOW_HEX = "#faca2b"
+
+
+# Streamlit default chart colors
+ST_BLUE_HEX = "#0068c9"
+ST_BLUE_LIGHT_HEX = "#84C9ff"
+ST_GRAY_HEX = "#d5dae5"
+ST_GREEN_HEX = "#2ab09e"
+ST_GREEN_LIGHT_HEX = "#7eefa0"
+ST_ORANGE_HEX = "#ff8700"
+ST_PINK_HEX = "#ffaaab"
+ST_PURPLE_HEX = "#6c3fc0"
+ST_RED_HEX = "#fe2b2b"
+ST_YELLOW_HEX = "#ffd16a"
